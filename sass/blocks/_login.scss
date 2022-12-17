@@ -1,0 +1,41 @@
+.login {
+    background: $color3;
+    padding: 76px 0;
+    position: relative;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 48px;
+        color: $color6;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: $color6;
+        border: 2px solid $color6;
+        border-radius: 24px;
+        padding: 10px 32px;
+        transition: all 0.3s linear;
+    }
+
+    &__btn:hover {
+        color: $color1;
+        background: $color6;
+    }
+}

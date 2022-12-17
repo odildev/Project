@@ -1,0 +1,57 @@
+.directors {
+    background: $color7;
+    padding: 140px 0;
+    position: relative;
+
+    &__line {
+        position: absolute;
+        top: 0;
+
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: $color1;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+
+    &__info {
+        background: $color6;
+        padding-top: 32px;
+        padding-bottom: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    &__info-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $color5;
+        padding-top: 16px;
+    }
+
+    &__info-subtitle {
+        font-size: 15px;
+        line-height: 25px;
+        color: $color1;
+        font-style: italic;
+    }
+
+    &__info-icon {
+        margin-top: -30px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.brand {
+    background: $color6;
+    padding: 140px 0;
+    position: relative;
+
+    &__line {
+        position: absolute;
+        top: 0;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: $color1;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 118px;
+    }
+}

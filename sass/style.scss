@@ -1,0 +1,44 @@
+@import 'base/variables';
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/convenience';
+@import 'blocks/workers';
+@import 'blocks/login';
+@import 'blocks/footer';
+@import 'blocks/directors';
+@import 'blocks/brand';
